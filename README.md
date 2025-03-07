@@ -1,4 +1,4 @@
-# Real-Time-Drowsiness-Detection
+# Drowsiness Detection System
 
 This project is a real-time drowsiness detection system that monitors a person's eye aspect ratio (EAR) using OpenCV and Mediapipe. If the EAR value falls below a threshold, the system triggers an alert sound. Additionally, the system detects emotions using DeepFace.
 
@@ -10,11 +10,19 @@ This project is a real-time drowsiness detection system that monitors a person's
 - **FPS calculation** for performance monitoring.
 
 ## Requirements
-Make sure you have Python installed, then install the required dependencies using:
+### Required Libraries
+Ensure you have Python installed, then install the required dependencies using:
 
 ```bash
 pip install opencv-python numpy mediapipe scipy deepface
 ```
+
+#### Explanation of Libraries:
+- `opencv-python`: Used for video capture and image processing.
+- `numpy`: Handles numerical operations.
+- `mediapipe`: Provides facial landmark detection.
+- `scipy`: Used for calculating Eye Aspect Ratio (EAR).
+- `deepface`: Enables emotion detection.
 
 For Windows users, `winsound` is used for audio alerts, which is built into Python.
 
@@ -59,5 +67,5 @@ This project is open-source and available under the MIT License.
 
 ---
 
-Feel free to contribute .
+Feel free to contribute !
 
